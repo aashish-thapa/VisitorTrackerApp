@@ -1,0 +1,122 @@
+body{
+    height: 100vh;
+    width : 100vw;
+    background-image:url("https://burst.shopifycdn.com/photos/library-books.jpg?width=1000&format=pjpg&exif=0&iptc=0"); 
+    opacity: 88%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+#outer-line{
+    background-color: rgba(210, 210, 224, 10%);
+    background-image: url("https://images.unsplash.com/photo-1589998059171-988d887df646?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b3BlbiUyMGJvb2t8ZW58MHx8MHx8fDA%3D");
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    margin-left: 30%;
+    border: 1px double goldenrod;
+    
+}
+
+h1{
+    padding: 10px 5px 10px 5px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: lightgoldenrodyellow;
+
+}
+#count{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    margin-top: 30px;
+    color:rgba(210, 210, 224, 90%)
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    width: 90%;  
+    height: 70%;
+}
+#count-el{
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    color:white;
+    margin-left: 25%;
+    margin-top:20%;
+    margin-bottom: 10px;
+    border:1px solid black;
+    border-radius: 5%;
+    box-shadow: blur 10px;
+    
+   
+
+
+
+    
+}
+#save{
+    height: 50px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    margin-left: 25%;
+    
+    border:1px solid black;
+    border-radius: 5%;
+}
+#save:hover{
+    background-color: white;
+    color: green;
+
+    
+
+
+    
+}
+#save-el{
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    padding: auto;
+    overflow: hidden;
+    padding: auto;
+    background-color: black;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+#restart{
+    color: white;
+    background-color: blue;
+    border: 1px solid red;
+    margin-bottom: 0px;
+    height: 20px;
+    width: 75px;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-left: 40%;
+
+    
+}
+#count-el:hover{
+    background-color: white;
+    color:red;
+}
+footer{
+    background-color: rgb(68, 64, 64,80%);
+    position: absolute;
+    color: white;
+    height: 50px;
+    width: 100%;
+    bottom:0;
+    top: 600px;
+    border: 1px solid goldenrod;
+    text-align: center;
+}
